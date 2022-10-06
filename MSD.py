@@ -27,7 +27,7 @@ class msd:
 
         """
         self.items = items
-        l = [len(x) for x in items]wo
+        l = [len(x) for x in items]
         self.max_index = max(l) - 1
 
     def msd(self):
